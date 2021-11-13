@@ -1,5 +1,5 @@
-#pragma GCC optimize("Ofast,unroll-loops")
-#pragma GCC target("avx,avx2,sse,sse2,ssse3,sse4,mmx,fma,popcnt")
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx2")
 #include <array>
 #include <chrono>
 #include <random>
